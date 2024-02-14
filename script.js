@@ -5,7 +5,7 @@ function verificaParola() {
     // Verifica dacă parola este corectă
     if (parola === "123") {
         // Deschide site-ul dorit dacă parola este corectă
-        window.location.href = "http://127.0.0.1:5501/index.html";
+        window.location.href = "Tabel.html";
     } else {
         alert("Parolă incorectă! Vă rugăm să încercați din nou.");
     }
