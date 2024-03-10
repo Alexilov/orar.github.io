@@ -1,10 +1,4 @@
 
-table {  
-    margin-right: auto;  
-    margin-left: auto;
-    }
-h1{text-align: center;}
-
 .header {
     padding: 60px;
     text-align: center;
@@ -12,3 +6,6 @@ h1{text-align: center;}
     color: white;
     font-size: 30px;
   }
+img {
+    width: 1854px;
+}
