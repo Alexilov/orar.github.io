@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" href="style.css">
-   <title>Baner</title>
+    
+    <title>login</title>
+
 </head>
 <body>
-   <img src="baner.jpg">
-
-   <br>
-   <div class="header">
-      <a href="https://www.supraten.md"> <h1>Supraten</h1></a>
-      <p>Orasul mesterilor</p>
-    </div>
+    <script>
+        // Definirea funcției pentru verificarea parolei și deschiderea site-ului
+        function verificaParola() {
+           var parola = prompt("Introduceți parola:");
+  
+           // Verifica dacă parola este corectă
+           if (parola === "123") {
+              // Deschide site-ul dorit dacă parola este corectă
+              window.location.href = "Tabel.html";
+           } else {
+              alert("Parolă incorectă! Vă rugăm să încercați din nou.");
+           }
+        }
+  
+        // Apelarea funcției pentru a începe procesul de verificare a parolei
+        verificaParola();
+     </script>
+    
 </body>
 </html>
